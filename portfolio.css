@@ -1,0 +1,163 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+
+  .name-container {
+    margin-right: 0px;
+    padding: 20px;
+    text-align: left;
+    width: 500px;
+  }
+ 
+  .image{
+    margin-left: 600px;
+    width: 100px;
+    align-items: center;
+    padding-top: 30px;
+  }
+  .dp{
+    width: 100px;
+    border-radius: 50px;
+  }
+  header {
+    background: #333;
+    color: #fff;
+    padding: 0;
+    text-align: left;
+    display: flex;
+    margin: 0px;
+    opacity: 0.9;
+  }
+  
+  header h1 {
+    font-size: 2em;
+  }
+  .skills-container,.projects-container,.contact-container
+  {
+    background: #f4f4f4;
+    align-items: left;
+  }
+  .skillAndProjects-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+  }
+  .skills-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10px;
+    row-gap: 20px;
+    align-items: center;
+  }
+  .skill img{
+    width: 60px;
+    height: 55px;
+  }
+  .title{
+    font-size: 22px;
+    margin-left:233px ;
+  }
+  .skill{
+    margin-left: 10px;
+  }
+  .skill-lang{
+    margin-left: 10px;
+  }
+  .project-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+    margin-left: 35px;
+  }
+  #skills, #projects, #resume, #contact {
+    background: #f4f4f4;
+    padding: 20px 0;
+    border-radius: 2.3%;
+  }
+  .project {
+    margin-bottom: 20px;
+  }
+  .project-grid img{
+    width:80px;
+    height: 110px;
+    margin-left: 120px;
+  }
+  #contact{
+    margin-left: 25%;
+    width: 500px;
+  }
+  button{
+    height: 45px;
+    width: 120px;
+    color: white;
+    background-color: red;
+    border:none;
+    border-radius: 5px;
+    opacity:0.9;
+    margin-left: 580px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: 0.1s;
+  }
+  button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  a{
+    color: #fff;
+    text-decoration: none;
+  }
+  .con-logos{
+    margin-left: 610px;
+    margin-bottom: 10px;
+  }
+  .con-logos div{
+    display: inline-block;
+
+  }
+  .con-logos img{
+    height: 30px;
+    width: 30px;
+    transition: 0.2s;
+  }
+  .con-logos img:hover{
+    height: 35px;
+    width: 35px;
+  }
+  .reach{
+    margin-left: 567px;
+    margin-top: 0;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position:initial;
+  }
+  
+  footer p {
+    margin-bottom: 5px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
